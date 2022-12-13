@@ -1,0 +1,23 @@
+package main
+
+import "fmt"
+
+func main() {
+
+	// Shorthand declaration of array
+	arr := [2]string{"www.ibm.com", "www.google.com"}
+
+	// Accessing the elements of
+	// the array Using for loop
+	fmt.Println("Elements of the array:")
+
+	for i := 0; i < 2; i++ {
+		fmt.Println(arr[i])
+	}
+
+}
+
+a := []string{"Foo", "Bar"}
+for i, s := range a {
+    fmt.Println(i, s)
+}
